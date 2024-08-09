@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div id="headingContainer"></div>
+
+    <div id="playerContainer" onclick="playerChooseScicssors()">
+        <div id="scicssorsItem">
+            scicssors
+            <img class="img" src="./assets/img/scicssors.png" alt="">
+        </div>
+
+        <div id="stoneItem" onclick="playerChooseScicssors()">
+            stone
+            <img class="img" src="./assets/img/stone.png" alt="">
+        </div>
+
+        <div id="paperItem" onclick="playerChoosePaper()">
+            paper
+            <img class="img" src="./assets/img/paper.png" alt="">
+        </div>
+    </div>
+
+
+    <div id="computerContainer">
+        click on an icon to start 😊
+    </div>
+
+    <div id="scoresDiv">
+
+    </div>
+
+    <div id="scoresDiv1">
+
+    </div>
+
+    <button class="btnTop" onclick="setEmptyArray()">Reset Scores</button>
+    
+</body>
+</html>
